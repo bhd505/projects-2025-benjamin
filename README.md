@@ -1,9 +1,7 @@
 # [Group name]
 
 **Group members:**
-- A
-- B
-- C
+- bhd505
 
 **This repository contains:***
 
