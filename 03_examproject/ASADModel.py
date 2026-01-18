@@ -39,7 +39,6 @@ class ASADModelClass:
         p = self.par
         return pi_e + p['gamma'] * (y - p['ybar'])
 
-    # analytical equilibrium y_t^*, pi_t^* given pi_e and v
     def equilibrium(self, pi_e, v):
         p = self.par
         alpha, z = self._alpha_z(v)
