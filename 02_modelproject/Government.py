@@ -52,8 +52,7 @@ class GovernmentClass(WorkerClass):
         nu_backup = par.nu # Exercise 4
 
         for i, p_i in enumerate(sol.p):
-            par.nu = sol.nu_i[i]          
-            opt    = self.optimal_choice(p_i) 
+            opt = self.optimal_choice(p_i)
             sol.ell[i] = opt.ell
             sol.u[i]   = opt.U
             sol.c[i]   = opt.c
